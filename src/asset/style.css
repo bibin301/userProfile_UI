@@ -8,13 +8,10 @@ body {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
   }
-  
-
 .container{
  width:100%;
  display:block;   
 }
-
 .cardDetailsBg{
     width:100%;
     display: flex;
@@ -29,7 +26,6 @@ body {
     box-shadow: 1px 2px 2px 2px #efefef;
     border-radius: 4px;
 }
-
 .image_div{
 width:100%;
 display: block;

@@ -20,7 +20,6 @@ const reducer = (state=initialState, action) => {
       editList:action.data
 
     })
-  
     default: 
       return state;
   }

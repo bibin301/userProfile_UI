@@ -4,9 +4,9 @@ import actionType from "./actionTypes";
 
 const listData =[{
   "id":"1",
-  "name": "sadman",
-  "designation":"UI/UX Designer",
-  "email":"sudman@gmail.com",
+  "name": "Senthilnathan",
+  "designation":"Software Architect",
+  "email":"senthilnathan@gmail.com",
   "image":"./src/asset/profile.png",
   "message":"./src/asset/message.png",
   "user":"./src/asset/user1.png"
@@ -14,9 +14,9 @@ const listData =[{
 
 },{
   "id":"2",
-  "name": "Akash",
-  "designation":"UI/UX Designer",
-  "email":"akash@gmail.com",
+  "name": "Raja",
+  "designation":"Node js Developer",
+  "email":"raja@gmail.com",
   "image":"./src/asset/profile.png",
   "message":"./src/asset/message.png",
   "user":"./src/asset/user1.png"
@@ -25,8 +25,8 @@ const listData =[{
 {
   "id":"3",
   "name": "danie",
-  "designation":"UI/UX Designer",
-  "email":"sarkar@gmail.com",
+  "designation":"Node js Developer",
+  "email":"danie@gmail.com",
   "image":"./src/asset/profile.png",
   "message":"./src/asset/message.png",
   "user":"./src/asset/user1.png"
@@ -62,7 +62,7 @@ const listData =[{
 {
   "id":"7",
   "name": "Antony",
-  "designation":"UI/UX Designer",
+  "designation":"Java Developer",
   "email":"antony@gmail.com",
   "image":"./src/asset/profile.png",
   "message":"./src/asset/message.png",
@@ -81,7 +81,7 @@ const listData =[{
   "id":"9",
   "name": "Vignesh",
   "designation":"UI/UX Designer",
-  "email":"vignesh@gmail.com",
+  "email":"QA Tester",
   "image":"./src/asset/profile.png",
   "message":"./src/asset/message.png",
   "user":"./src/asset/user1.png"

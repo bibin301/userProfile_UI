@@ -31,49 +31,45 @@ class Profile extends Component {
   return (
     
       <div className="container">
-        <div className="addProfile">
-            <button  onClick={this.addProfile} type="button">
-                                        Add Profile
-                                      </button>
-        </div>
-
-     <div className="cardDetailsBg">
-       {_map(this.props.profileList, (opt, index) => (
-
-          <div className="div_container">
-            <div className="image_div">
-              <div className="imh">
-              <img src={opt.image} alt=""/>
-              </div>
-
-            </div>
-            <div>
-              <div className="title_one"> {opt.name}</div>
-              <div className="title_two"> {opt.designation}</div>
-              <div className="title_three"> {opt.email}</div>
-            </div>
-            
-            <div className="cardBottomInfo">
-              <div className="message_section">
-                   Message
-              </div>
-              <div className="profile_section">
-                <div  onClick={() => this.getListInfo(opt)} >
-                                        View Profile
-                                      </div>
-               
-                </div>
-            </div>
+          <div className="addProfile">
+              <button  onClick={this.addProfile} type="button">
+                                          Add Profile
+                                        </button>
           </div>
-                    
-      ))}
-  </div>
-      </div>
+
+          <div className="cardDetailsBg">
+            {_map(this.props.profileList, (res, index) => (
+
+                <div className="div_container">
+                  <div className="image_div">
+                    <div className="imh">
+                       <img src={res.image} alt=""/>
+                    </div>
+                  </div>
+                  <div>
+                    <div className="title_one"> {res.name}</div>
+                    <div className="title_two"> {res.designation}</div>
+                    <div className="title_three"> {res.email}</div>
+                  </div>
+                  <div className="cardBottomInfo">
+                    <div className="message_section">
+                        Message
+                    </div>
+                    <div className="profile_section">
+                      <div  onClick={() => this.getListInfo(res)} >
+                                              View Profile
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                          
+            ))}
+          </div>
+    </div>
     );
   }
 }
 
-// export default Profile;
 
 const mapStateToProps = (state) => ({
   profileList: state.commonReducer.profileList
