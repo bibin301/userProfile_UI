@@ -11,4 +11,6 @@ Module bundler
   BUILD COMMAND
    
    npm run build
+   
+   Demo: http://localhost:3000/UserProfile
   
