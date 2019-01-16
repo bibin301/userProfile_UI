@@ -1,7 +1,7 @@
 # userProfile_UI
 
 Technology Used
-  i) React js and redux
+  i) React js and redux ;
 Module bundler
   i) Webpack
   
