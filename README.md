@@ -5,6 +5,10 @@ Technology Used
 Module bundler
   i) Webpack
   
+  TO INSTALL nodemodules in App
+  
+    npm i or npm install
+  
   START COMMAND
     npm start
     
